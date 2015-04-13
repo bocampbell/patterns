@@ -1,0 +1,38 @@
+#mainContainer {
+  display: flex;
+  flex-flow: column wrap;
+  border: solid 1px #000000;
+  background-color: #cccccc;
+  margin: 20px;
+}
+.item {
+  /*width: 80px; */
+  border: solid 1px #000000;
+  background-color: #ffffff;
+  margin:10px;
+  padding:10px;
+  flex-grow:1;
+}
+.one {
+  display: flex;
+  flex-flow: row wrap;
+  background-color:yellow;
+  order:2;
+}
+
+.two {
+  order:3;
+}
+
+.three {
+  order:4;
+}
+
+.four {
+  order:1;
+}
+
+.oneone {
+  display: flex;
+  order:1;
+}
